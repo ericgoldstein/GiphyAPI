@@ -25,6 +25,9 @@ img {
 }
 .jumbotron {
 	background-color: inherit;
+	background-image: url("http://bronxbardetroit.com/wp-content/uploads/2017/10/wallpaper-gifs-find-share-on-giphy-on-animated-gif-background.gif");
+	font-family: script;
+
 }
 .jumbotron .h1, .jumbotron h1 {
 	text-align: center;
