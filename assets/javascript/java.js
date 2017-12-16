@@ -33,7 +33,7 @@ function removedLastButton() {
 }
 function displayGifs(action) {
 	console.log(action);
-	var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&limit=10";
+	var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + action + "&api_key=dc6zaTOxFJmzC&limit=10";
 	console.log(queryURL);
 	$.ajax({
 		url: queryURL,
@@ -81,5 +81,6 @@ $(document).on("click", ".image", function() {
 		$(this).attr('data-state', 'still');
 	}
 });
+
 
 });
