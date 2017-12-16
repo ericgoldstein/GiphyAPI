@@ -40,7 +40,7 @@ function displayGifs(action) {
 		method: 'GET'
 	}).done(function(response) {
 	console.log(response.data);
-	$("#gifsView").empty();
+	$("#gifView").empty();
 	var results = response.data;
 	if (results =="") {
 		alert("no Gif's exist for this Sorry!!");

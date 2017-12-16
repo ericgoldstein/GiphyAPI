@@ -18,6 +18,9 @@ img {
 	float: left;
 	margin: 3px;
 }
+#inputArea {
+	clear:both;
+}
 .container {
 	background-color: white;
 	opacity: 0.8;
